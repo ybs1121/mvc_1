@@ -16,12 +16,14 @@
 <head>
     <title>Title</title>
 </head>
-<thed>
+
+<body>
+
+<thead>
     <th>id</th>
     <th>username</th>
     <th>age</th>
-</thed>
-<body>
+</thead>
 <%
     for (Member member : members) {
         out.write(" <tr>");
